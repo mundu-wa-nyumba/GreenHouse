@@ -10,4 +10,9 @@ class GreenhouseApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void applictionStarts() {
+		GreenhouseApplication.main(new String[] {});
+	}
+
 }
