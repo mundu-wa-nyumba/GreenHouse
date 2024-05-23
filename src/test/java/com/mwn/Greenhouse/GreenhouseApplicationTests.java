@@ -16,9 +16,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 class GreenhouseApplicationTests {
 
 	@Autowired
-	private ApplicationContext applicationContext;
-
-	@Autowired
 	private HealthEndpoint healthEndpoint;
 
 	@Autowired
